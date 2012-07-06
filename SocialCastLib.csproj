@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIAccessor.cs" />
     <Compile Include="Data\AttachmentResponse.cs" />
     <Compile Include="Data\Avatar.cs" />
     <Compile Include="Data\CategoryResponse.cs" />
@@ -64,7 +65,7 @@
     <Compile Include="GroupsQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SocialCastAuthDetails.cs" />
-    <Compile Include="SocialCastCredentials.cs" />
+    <Compile Include="SocialCastData.cs" />
     <Compile Include="WebServiceHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

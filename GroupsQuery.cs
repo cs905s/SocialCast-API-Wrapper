@@ -16,7 +16,7 @@ namespace SocialCastLib
 
        private static void InitializeDictionary()
        {
-           throw new NotImplementedException();
+           
        }
 
        public static void AddToDictionary(string key, int value)
